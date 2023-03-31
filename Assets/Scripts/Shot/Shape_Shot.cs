@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using other;
 using UnityEngine;
 using UnityEditor;
 
@@ -84,7 +85,7 @@ public class Shape_Shot : MonoBehaviour
                 idx1.transform.rotation = Quaternion.Euler(0, 0, dir + xx[i]);
 
                 //정밀한 속도 처리로 모양을 만들어 낸다.
-                idx1.GetComponent<Bullet_Move>().speed = v[i] * Speed / sup;
+                idx1.GetComponent<Bullet>().Speed = v[i] * Speed / sup;
                 #endregion
 
                 #region //2차 생성
@@ -101,7 +102,7 @@ public class Shape_Shot : MonoBehaviour
                 idx2.transform.rotation = Quaternion.Euler(0, 0, dir - xx[i]);
 
                 //정밀한 속도 처리로 모양을 만들어 낸다.
-                idx2.GetComponent<Bullet_Move>().speed = v[i] * Speed / sup;
+                idx2.GetComponent<Bullet>().Speed = v[i] * Speed / sup;
                 #endregion
 
                 #region //3차 생성
@@ -118,7 +119,7 @@ public class Shape_Shot : MonoBehaviour
                 idx3.transform.rotation = Quaternion.Euler(0, 0, dir);
 
                 //정밀한 속도 처리로 모양을 만들어 낸다.
-                idx3.GetComponent<Bullet_Move>().speed = Speed;
+                idx3.GetComponent<Bullet>().Speed = Speed;
                 #endregion
 
                 //모양을 완성한다.

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using other;
 using UnityEngine;
 
 public class heart_shot : MonoBehaviour {
@@ -46,7 +47,7 @@ public class heart_shot : MonoBehaviour {
             temp.transform.rotation = Quaternion.Euler(0, 0, dir[i] + rot);
 
             //정밀한 속도 처리로 모양을 만들어 낸다.
-            temp.GetComponent<Bullet_Move>().speed = speeds[i] / 50;
+            temp.GetComponent<Bullet>().Speed = speeds[i] / 50;
         }
     }
 
