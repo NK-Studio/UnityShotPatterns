@@ -250,8 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b80bf527174ef614494dc02a55d288ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
-  rot: 0
+  Bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
+  Rotation: 0
 --- !u!1 &499557536
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5461630b4f9bfea44af58a593dcd8924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
+  Bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
 --- !u!1 &946198580
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d0d5960dd4c0648b33f08c394f22ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rot_Speed: 10
-  pos: {fileID: 499557537}
-  bullet: {fileID: 1799831773523680, guid: 716eea2c50cd92a4188eb68072f6acb4, type: 3}
+  TurnSpeed: 10
+  Bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
+  SpawnInterval: 0.01
 --- !u!1 &1159432971
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,8 +721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50cc2021bdbdce941a2e42103eac5f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2019953413}
-  bullet: {fileID: 1799831773523680, guid: 716eea2c50cd92a4188eb68072f6acb4, type: 3}
+  Target: {fileID: 2019953413}
+  Bullet: {fileID: 1799831773523680, guid: 716eea2c50cd92a4188eb68072f6acb4, type: 3}
 --- !u!1 &1237551633
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,11 +752,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c311f03080a5394aa4669491aba5aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rot: 15
+  Rotation: 0
   Vertex: 3
-  sup: 3
+  Subdivision: 3
   Speed: 4
-  bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
+  Bullet: {fileID: 9098057924106888122, guid: 5d81c649b92ffd949997b9e3fafced5c, type: 3}
 --- !u!4 &1237551635
 Transform:
   m_ObjectHideFlags: 0

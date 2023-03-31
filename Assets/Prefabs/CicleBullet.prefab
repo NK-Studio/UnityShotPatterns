@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9098057924106888125}
   - component: {fileID: 4735919097492529013}
   m_Layer: 0
-  m_Name: Cicle_Bullet_Space
+  m_Name: CicleBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
